@@ -1,0 +1,32 @@
+.card {
+  margin: 10%; /* Puedes ajustar el valor según tus necesidades */
+  background: #7286d4 !important;
+}
+
+.card-title {
+
+  font-family: "Inria Sans";
+  font-style: normal;
+
+  color: #ffffff;
+}
+.card-text {
+
+  font-family: "Inria Sans";
+  font-style: italic;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.card-img-top {
+  border-radius: 10px;
+  width: 100%;
+    height: 100%;
+}
+.btn btn-primary {
+    
+    background: #E5E0FF !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}

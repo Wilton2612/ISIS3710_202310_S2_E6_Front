@@ -1,0 +1,118 @@
+.containers{
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 25px;
+  column-gap: 25px;
+  justify-content: center;
+  padding: 8px;
+  background-color: #8EA7E9;
+}
+
+
+.card{
+  width: 450px;
+  height: 500px;
+  display:flex;
+  padding: 4px;
+  flex-direction:column; 
+  align-items: center;
+  border: 1px solid black;
+  
+}
+  
+.title {
+    font-size: 60px;
+    margin-bottom: 20px;
+    font-family: "Inria Sans";
+    color:#ffffff;
+    font-weight: bold;
+
+  }
+
+  
+  .descriptionReview {
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Inria Sans";
+    text-align: left;
+    bottom: 200px;
+    display: flex;
+
+
+  }
+  .ReviewComment{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 25px;
+    column-gap: 35px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .ReviewComment img {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .ReviewComment:hover img {
+    transform: scale(1.1);
+  }
+
+  .imageIconReview{
+    width: 30%;
+    max-height: 160px;
+    left: 90px; 
+    margin-right: 5px; 
+    bottom: 70px
+
+  }
+
+  .images{
+    display: flex;
+    flex-wrap: nowrap;
+    row-gap: 15px;
+    column-gap: 0px;
+    padding: 8px;
+    margin-left: 40px; 
+
+  }
+
+  .imageIconComment{
+    width: 40%;
+    max-height: 200px;
+    right: 80px; 
+    margin-right: 10px;
+    bottom: 65px
+
+  }
+  
+  .numeroLikes{
+    text-align: left;
+  }
+  
+  .image-link {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+  }
+  
+  .image {
+    transition: transform 0.3s ease;
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+  }
+  
+  
+  .image-link:hover .image {
+    transform: scale(1.1); /* Adjust the scale factor to control the image size on hover */
+  }
+  
+  .image-link:hover .overlay {
+    opacity: 1;
+  }
+  
+  
+

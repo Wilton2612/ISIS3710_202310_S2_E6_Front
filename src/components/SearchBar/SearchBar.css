@@ -1,0 +1,20 @@
+.input-group {
+  display: flex;
+  justify-content: center;
+  width: 93% !important;
+  height: 70%;
+  margin-top: 60px;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 60px;
+}
+
+.form-control {
+  flex: 1;
+  border-radius: 20px 0 0 20px;
+  font-size: 100%;
+}
+
+.btn {
+  background: #ffff ;
+}

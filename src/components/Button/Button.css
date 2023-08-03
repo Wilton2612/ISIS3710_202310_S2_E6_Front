@@ -1,0 +1,28 @@
+button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    width: 380px;
+    height: 45px;
+    left: 251px;
+    top: 509px;
+
+    background: #E5E0FF;
+    box-shadow: 0px 4px 4px rgba(#E5E0FF);
+    border-radius: 10px;
+    border-color: transparent;
+
+    font-family: 'Inria Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 43px;
+    
+    align-items: center;
+    color: #7286D3;
+    text-align: center;
+    border: 1px solid #7286D3;
+  }
+  
+
+

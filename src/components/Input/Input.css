@@ -1,0 +1,27 @@
+.input {
+    height: 40px;
+    width: 350px;
+    padding: 0 15px;
+    line-height: 40px;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    margin: auto;
+    font-family: 'Inria Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    color: #8EA7E9;
+
+  
+    border-color: transparent;
+    background: #E5E0FF;
+    box-shadow: 0px 4px 4px rgba(#E5E0FF);
+    border-radius: 10px;
+  }
+
+
+
+  

@@ -1,0 +1,173 @@
+.marco {
+    margin: 50px auto;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #8EA7E9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.25);
+  }
+  
+  .texto_grande {
+    height: 200px;
+    width: 500px;
+    resize: none;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: #E5E0FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    border-color: transparent;
+    font-family: 'Inria Sans', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 43px;
+    color: #7286D3;
+    text-align: center;
+    border: 1px solid #7286D3;
+    margin-bottom: 10px;
+  }
+
+  .documentos
+  {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+
+  }
+  
+
+.carga_icono,
+.carga_portada {
+  display: none;
+}
+
+
+.file-label {
+  display: inline-block;
+  cursor: pointer;
+  padding: 10px 15px;
+  background-color: #7286D3;
+  color: #fff;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.file-label span {
+  font-family: 'Inria Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+ 
+}
+
+
+.file-label:hover {
+  background-color: #506AA7;
+}
+
+.file-label:hover span {
+  color: #fff;
+}
+
+.file-name {
+    font-family: 'Inria Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 5px;
+    color: #7286D3;
+  }
+  
+  
+
+  
+  
+
+
+  .form__visibilidad {
+    background-color: #E5E0FF;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    margin-bottom: 15px;
+  }
+  
+  .form__visibilidad label {
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-left: 140px;
+    font-family: 'Inria Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    align-items: center;
+    text-align: center;
+    color: #8EA7E9;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  
+  .form__visibilidad p {
+    margin-left: 15px;
+    color: #7286D3;
+    font-family: 'Inria Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .boton_titulo {
+    height: 40px;
+    width: 500px;
+    line-height: 40px;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    margin: auto;
+    font-family: 'Inria Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    color: #8EA7E9;
+    border-color: transparent;
+    background: #E5E0FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .crear_note {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    width: 500px;
+    height: 45px;
+    background: #E5E0FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    border-color: transparent;
+    font-family: 'Inria Sans', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 43px;
+    align-items: center;
+    color: #7286D3;
+    text-align: center;
+    border: 1px solid #7286D3;
+  }
+  

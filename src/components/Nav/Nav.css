@@ -1,0 +1,137 @@
+.nav {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    bottom: 29px;
+    background: #8EA7E9;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 0px 10px 10px;
+}
+
+.nav__links {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px;
+    margin-right: 50px;
+    gap: 30px;
+    text-decoration: none;
+    list-style: none;
+    top: 10px;
+    background: #8EA7E9;
+
+    flex-basis: 60%;
+
+    /*
+    width: 600px;
+  */
+}
+
+.nav__logo {
+
+    flex-basis: 40%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 200px;
+   
+    
+}
+
+
+.nav__logo img{
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: auto;
+  
+
+}
+
+.nav__logo p{
+
+   
+    
+    margin: auto 0;
+    font-family: 'Inria Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 58px;
+    color: #E5E0FF;
+}
+
+
+.btn {
+
+   
+    width: 200px;
+    height: 60px;
+    left: 1052px;
+    top: 110px;
+
+    position: static !important;
+    
+    
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+
+.nav_li {
+
+    text-decoration: none;
+
+    width: 105px;
+    height: 53px;
+
+    font-family: 'Inria Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 53px;
+    /* identical to box height */
+
+
+    color: #E5E0FF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+
+
+
+/*
+
+
+
+
+.nav__link {
+
+    width: 105px;
+    height: 53px;
+    list-style: none;
+    font-family: 'Inria Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 53px;
+    color: #E5E0FF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+*/
